@@ -54,6 +54,10 @@ ul, a {
     align-items: space-around;
 }
 
+.yarn-container {
+    display: flex;
+}
+
 .title-container {
     display: flex;
     flex-direction: column;
