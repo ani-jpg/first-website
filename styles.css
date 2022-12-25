@@ -5,13 +5,12 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 12px;
-    margin: 0;
+    padding: 18px 100px;
 }
 
 h1 { 
     color: #f9faf8;
-    font-size: 48px;
+    font-size: 65px;
     font-weight: 900;
 }
 
@@ -32,6 +31,35 @@ ul, a {
     display: flex;
     align-items: center;
     gap: 18px;
-
 }
 
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    padding: 24px 100px;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.crochet-image {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+}
