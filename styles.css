@@ -8,12 +8,6 @@
     padding: 18px 100px;
 }
 
-h1 { 
-    color: #f9faf8;
-    font-size: 65px;
-    font-weight: 900;
-}
-
 .right-header {
     font-weight: bold;
     font-size: 24px;
@@ -39,12 +33,12 @@ ul, a {
     justify-content: center;
     gap: 48px;
     padding: 24px 100px;
-    flex-wrap: wrap;
+    flex: 1;
 }
 
 img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 12px;
     margin: 0;
     padding: 0;
@@ -62,4 +56,22 @@ img {
     flex-direction: column;
     flex-wrap: wrap;
     flex: 1;
+    gap: 18px;
+}
+
+h1 { 
+    color: #f9faf8;
+    font-size: 70px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+button {
+    display:block;
 }
