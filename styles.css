@@ -49,6 +49,8 @@ img {
     flex: 1;
     justify-content: center;
     align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
 .title-container {
@@ -72,6 +74,13 @@ p {
     font-size: 20px;
 }
 
-button {
-    display:block;
+.sign-up {
+    font-size: 26px;
+    padding: 12px 36px;
+    font-weight: bolder;
+    border-radius: 8px;
+    background-color: #3882f6;
+    text-align: center;
+    color: #f9faf8;
+    border-style: none;
 }
