@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .part-one {
     background-color: #1f2937;
 }
@@ -33,7 +37,6 @@ ul, a {
     justify-content: center;
     gap: 48px;
     padding: 40px 100px;
-    margin-bottom: 38px;
     flex: 1;
 }
 
@@ -67,7 +70,7 @@ h1 {
     color: #f9faf8;
     font-size: 70px;
     font-weight: 900;
-    margin: 0;
+    margin: 20px;
     padding: 0;
 }
 
