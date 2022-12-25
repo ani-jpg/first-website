@@ -121,3 +121,30 @@ h2 {
     font-size: 18px;
     padding: 12px;
 }
+
+.part-three {
+    background-color: #e5e7eb;
+    text-align: center;
+    padding: 55px;
+    font-size: 40px;
+}
+
+.quote {
+    font-style: italic;
+    color: #rgb;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 70px 140px;
+    gap: 24px;
+}
+
+.credit {
+    font-size: 25px;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+}
